@@ -9,9 +9,12 @@
         <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
         <link href="css/_css.css" rel="stylesheet" type="text/css"/>
         <script src="lib/jquery-2.1.4.min.js" type="text/javascript"></script>
-        <script src="lib/bootstrap.js" type="text/javascript"></script>
-        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
-        <script src="js/_js.js" type="text/javascript"></script>
+        <script src="lib/bootstrap.js" type="text/javascript"></script>  
+        <script src="lib/jquery.stellar.min.js" type="text/javascript"></script>
+
+<script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap">
+    </script>        <script src="js/_js.js" type="text/javascript"></script>
     </head>
     <body data-spy="scroll" data-target=".navbar-default" data-offset="50">
 
@@ -44,214 +47,242 @@
                     <h1>Kompleksowa naprawa samochodów<br>osobowych i ciężarowych.</h1>
                 </div>
             </div>
+           <div class="arrow hrefTarget"><a href="#onas"><span class="glyphicon glyphicon-chevron-down"></span></a></div>
+
         </header>
 
 
         <section id="onas" class="hrefTarget">
             <div  class="container-fluid">
-                <section>
+               
                     <div class="row">
-                        <div class="col-md-6">
+                        <div class="col-md-10 col-md-offset-1">
                             <h2>O nas</h2>
-                            <p>Firma "AUTO-SERWIS", założona przez Stanisława Kasprzaka, działa na rynku lokalnym od 1979 roku. W ramach kontynuacji rodzinnej działalności w 2003 roku synowie Lucjan i Mirosław, rozszerzając zakres działalności o transport, utworzyli spółkę
-                                zmieniając nazwę na PW „LUMIKA”. W lipcu 2008 roku firma powróciła do starej nazwy PUH „ Auto-Serwis ”, pod którą funkcjonuje do dnia dzisiejszego,
+                            <p>Firma "AUTO-SERWIS", założona przez Stanisława Kasprzaka, działa na rynku lokalnym od 1979 roku. W ramach kontynuacji rodzinnej działalności w 2003 roku synowie Lucjan i Mirosław, rozszerzając zakres usług o transport, utworzyli spółkę
+                                zmieniając nazwę na PW „LUMIKA”. W lipcu 2008 roku firma powróciła do starej nazwy PUH „ Auto-Serwis ”, pod którą działa do dnia dzisiejszego,
                                 a jej przedstawicielem jest Lucjan Kasprzak.
                             </p>
-                            <p>  W  czasie kilkunastu lat działalności nabyliśmy szerokie doświadczenie w przeprowadzaniu <b>kompleksowych
+                            <p class="p2">  W  czasie kilkunastu lat funkcjonowania, nabyliśmy szerokie doświadczenie w przeprowadzaniu <b>kompleksowych
                                     napraw blacharsko-lakierniczych</b>, wzbogaciliśmy warsztat o nowe pomieszczenia oraz wyposażyliśmy w <b>nowoczesne maszyny i urządzenia</b>.
-                                Nabyte dotychczas doświadczenie pozwoliło nam stworzyć ofertę, która zadowoli każdego Klienta.
-                                W  dalszym ciągu dbamy o Nasz rozwój oraz o poszerzenie i stosowanie <b>najnowszych standardów</b> lakiernictwa i blacharstwa.
+                                    Nabyte dotychczas doświadczenie pozwoliło nam stworzyć ofertę, która zadowoli każdego Klienta.
+                                    W  dalszym ciągu dbamy o Nasz rozwój oraz o poszerzenie i stosowanie <b>najnowszych standardów</b> lakiernictwa i blacharstwa.
                             </p>
-                            <h3>Opis działalności:</h3>
-                        <p>Nasza firma stawia na wysoką jakość usług i <b>pełne zadowolenie klienta</b>, świadcząc kompleksowe usługi naprawy samochodów osobowych i ciężarowych.
-                            Wykonujemy naprawy powypadkowe, blacharskie, lakiernicze i mechaniczne. Dzięki dobrze wyposażonemu warsztatowi,
-                            wykwalifikowanej kadrze i dużemu doświadczeniu oferujemy <b>dobrą, rzetelną  i terminową</b> obsługę.
-                            Naprawa samochodów jest wykonywana kompleksowo i solidnie.
-                            Klient zostawiając u nas samochód może liczyć na profesjonalną obsługę i fachowe porady mechanika.
-                        </p>
                         </div>
-                        <div class="col-md-6">
+
+                    </div>
+                    <div class="dyplomy row">
+                        <div class="col-lg-3 col-md-6"><img class="thumbnail" src="img/d1.JPG" alt="dyplom"/></div>
+                        <div class="col-lg-3 col-md-6"><img class="thumbnail" src="img/d2.JPG" alt="dyplom"/></div>
+                        <div class="col-lg-3 col-md-6"><img class="thumbnail" src="img/d3.JPG" alt="dyplom"/></div>
+                        <div class="col-lg-3 col-md-6"><img class="thumbnail" src="img/d4.JPG" alt="dyplom"/></div>
+                    </div>
+
+
+                    <div class="arrow hrefTarget"><a href="#opis"><span class="glyphicon glyphicon-chevron-down"></span></a></div>
+
+
+                    <div class="row" id="opis">
+                        <div class="col-md-7 col-md-offset-1">
+                            <h2>Opis działalności</h2>
+                            <p>Nasza firma stawia na wysoką jakość usług i <b>pełne zadowolenie klienta</b>, świadcząc kompleksowe usługi naprawy samochodów osobowych i ciężarowych.
+                                Wykonujemy naprawy powypadkowe, blacharskie, lakiernicze i mechaniczne. Dzięki dobrze wyposażonemu warsztatowi,
+                                wykwalifikowanej kadrze i dużemu doświadczeniu oferujemy <b>dobrą, rzetelną  i terminową</b> obsługę.
+                                Naprawa samochodów jest wykonywana kompleksowo i solidnie.
+                                Klient zostawiając u nas samochód może liczyć na profesjonalną obsługę i fachowe porady mechanika.
+                            </p>
+                        </div>
+                        <div class="col-md-4">
 
                             <div id="carousel1" class="carousel slide" data-ride="carousel">
-                                <!-- Indicators -->
-                                <ol class="carousel-indicators">
-                                    <li data-target="#carousel1" data-slide-to="0" class="active"></li>
-                                    <li data-target="#carousel1" data-slide-to="1"></li>
-                                    <li data-target="#carousel1" data-slide-to="2"></li>
-                                    <li data-target="#carousel1" data-slide-to="3"></li>
-                                    <li data-target="#carousel1" data-slide-to="4"></li>
-                                    <li data-target="#carousel1" data-slide-to="5"></li>
-                                    <li data-target="#carousel1" data-slide-to="6"></li>
-                                    <li data-target="#carousel1" data-slide-to="7"></li>
-                                    <li data-target="#carousel1" data-slide-to="8"></li>
-                                </ol>
 
                                 <!-- Wrapper for slides -->
                                 <div class="carousel-inner" role="listbox">
+                                    <div class="item">
+                                        <img class="thumbnail" src="img/w2.jpg" alt="lakierowanie2">
+                                        <div class="carousel-caption">
+                                            Naprawy lakiernicze
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <img class="thumbnail" src="img/w8.jpg" alt="mechanika">
+                                        <div class="carousel-caption">
+                                            Naprawy powypadkowe
+                                        </div>
+                                    </div>
+
                                     <div class="item active">
-                                        <img src="img/d1.jpg" alt="tytuł czeladnika">
+                                        <img class="thumbnail" src="img/w3.jpg" alt="mechanika">
                                         <div class="carousel-caption">
-                                            Świadectwo czeladnicze
+                                            Naprawy lakiernicze
+                                        </div>
+                                    </div>
+
+
+                                    <div class="item">
+                                        <img class="thumbnail" src="img/w6.jpg" alt="mechanika">
+                                        <div class="carousel-caption">
+                                            Obsługa bieżąca pojazdów
+                                        </div>
+                                    </div> 
+
+                                    <div class="item">
+                                        <img class="thumbnail" src="img/w4.jpg" alt="lakierowanie">
+                                        <div class="carousel-caption">
+                                            Naprawy lakiernicze
                                         </div>
                                     </div>
                                     <div class="item">
-                                        <img src="img/d2.jpg" alt="tytuł mistrza">
+                                        <img class="thumbnail" src="img/w5.jpg" alt="mechanika">
                                         <div class="carousel-caption">
-                                            Dyplom Mistrzowski
+                                            Naprawy blacharskie</div>
+                                    </div> 
+
+                                    <div class="item">
+                                        <img class="thumbnail" src="img/w1.jpg" alt="lakierowanie2">
+                                        <div class="carousel-caption">
+                                            Naprawy lakiernicze
                                         </div>
                                     </div>
                                     <div class="item">
-                                        <img src="img/d3.jpg" alt="tytuł mistrza">
+                                        <img class="thumbnail" src="img/w7.jpg" alt="lakierowanie2">
                                         <div class="carousel-caption">
-                                            Dyplom Mistrzowski
+                                            Obsługa bieżąca - diagnostyka
                                         </div>
                                     </div>
 
                                     <div class="item">
-                                        <img src="img/d4.jpg" alt="certyfikat">
-                                        <div class="carousel-caption">
-                                            Certyfikat DU PONT REFINISH TRAINING CENTER EUROPE
-                                        </div>
-                                    </div>
-                                    <div class="item">
-                                        <img src="img/w6c.jpg" alt="mechanika">
-                                        <div class="carousel-caption">
-                                            Mechanika pojazdowa
-                                        </div>
-                                    </div>
-                                    <div class="item">
-                                        <img src="img/w4c.jpg" alt="lakierowanie">
-                                        <div class="carousel-caption">
-                                            Naprawy lakiernicze
-                                        </div>
-                                    </div>
-                                    <div class="item">
-                                        <img src="img/w1c.jpg" alt="lakierowanie2">
-                                        <div class="carousel-caption">
-                                            Naprawy lakiernicze
-                                        </div>
-                                    </div>
-                                    <div class="item">
-                                        <img src="img/w8.jpg" alt="mechanika">
-                                        <div class="carousel-caption">
-                                            Obsługa bieżąca pojazdów
-                                        </div>
-                                    </div>
-                                    <div class="item">
-                                        <img src="img/w3.jpg" alt="mechanika">
+                                        <img class="thumbnail" src="img/w9.jpg" alt="mechanika">
                                         <div class="carousel-caption">
                                             Naprawy lakiernicze</div>
                                     </div>
 
 
-                                </div>
+                                </div><!--inner-->
 
-                                <!-- Controls -->
-                                
-                            </div> 
-                        </div>
-                    </div>
-                </section>
- 
-            </div>
+                                <!-- Left and right controls -->
+                                <a class="left carousel-control" href="#carousel1" role="button" data-slide="prev">
+                                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="right carousel-control" href="#carousel1" role="button" data-slide="next">
+                                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>   <!--sama karuzela-->
+                        </div><!--kulumna z karuzela-->
+                    </div><!--row-->
+            </div><!--container fluid-->
+                                <div class="arrow hrefTarget"><a href="#uslugi"><span class="glyphicon glyphicon-chevron-down"></span></a></div>
+
         </section>
 
-                <section class="uslugi hrefTarget" id="uslugi">
-                    <div class="container-fluid">
-                        <h2>Auto-Serwis oferuje Państwu:</h2>
-                        <div class="row">
 
-                            <section class="col-md-4 col-sm-12">
-                                <img src="img/car-collision.svg" class="icon" alt="kolizja">
-                                <h5>naprawy powypadkowe pojazdów</h5>
-                            </section>
-                            <section class="col-md-4 col-sm-12">
-                                <img src="img/car-collision.svg" class="icon" alt="blacharstwo">
-                                <h5>naprawy blacharskie</h5>
-                            </section>
-                            <section class="col-md-4 col-sm-12">
-                                <i class=" icon fa fa-tint" aria-hidden="true"></i>
-                                <h5>naprawy lakiernicze</h5>
-                            </section>
-                            <section class="col-md-4 col-sm-12">
-                                <i class="icon fa fa-cogs" aria-hidden="true"></i>
-                                <h5>obsługę bieżąca - diagnostyka
-                                    ,<br> wymianę materiałów eksploatacyjnych (oleje, filtry)</h5>
-                            </section>
+        <div class="bgd"></div>
+        <section class="hrefTarget" id="uslugi">
+            <div class="container-fluid">
+                <h2>Auto-Serwis oferuje Państwu:</h2>
+                <div class="row">
 
-                            <section class="col-md-4 col-sm-12" >
-                                <i class="icon fa fa-wrench" aria-hidden="true"></i>
-                                <h5>mechanikę pojazdową</h5>
-                            </section>
+                    <section class="u col-md-4 col-sm-12">
+                        <img src="img/car-collision.svg" class="icon" alt="kolizja">
+                        <h5>naprawy powypadkowe pojazdów</h5>
+                    </section>
+                    <section class="u col-md-4 col-sm-12">
+                        <i class="fa fa-car" aria-hidden="true"></i>
+                        <h5>naprawy blacharskie</h5>
+                    </section>
+                    <section class="u col-md-4 col-sm-12">
+                        <i class=" icon fa fa-tint" aria-hidden="true"></i>
+                        <h5>naprawy lakiernicze</h5>
+                    </section>
+                    <section class="u col-md-4 col-sm-12">
+                        <i class="icon fa fa-cogs" aria-hidden="true"></i>
+                        <h5>obsługę bieżąca - diagnostyka
+                            ,<br> wymianę materiałów eksploatacyjnych (oleje, filtry)</h5>
+                    </section>
 
-                            <section class="col-md-4 col-sm-12">
-                                <img alt="holowanie" src="img/tow.svg" class="icon">
-                                <h5>pomoc drogową</h5>
-                            </section>
+                    <section class="u col-md-4 col-sm-12" >
+                        <i class="icon fa fa-wrench" aria-hidden="true"></i>
+                        <h5>mechanikę pojazdową</h5>
+                    </section>
 
-                            <section class="col-md-4 col-sm-12">
-                                <img alt="klimatyzacja" src="img/snowflake.svg" class="icon">
-                                <h5>obsługę klimatyzacji</h5>
-                            </section>
+                    <section class=" u col-md-4 col-sm-12">
+                        <img alt="holowanie" src="img/tow.svg" class="icon">
+                        <h5>pomoc drogową</h5>
+                    </section>
 
-                            <section class="col-md-4 col-sm-12">
-                                <i class="icon fa fa-laptop" aria-hidden="true"></i>
-                                <h5>wstępną diagnostykę<br> komputerową</h5>
-                            </section>
+                    <section class="u col-md-4 col-sm-12">
+                        <img alt="klimatyzacja" src="img/snowflake.svg" class="icon">
+                        <h5>obsługę klimatyzacji</h5>
+                    </section>
 
-                            <section class="col-md-4 col-sm-12 ">
-                                <i class="icon fa fa-product-hunt " aria-hidden="true"></i>
-                                <h5>parking strzeżony</h5>
-                            </section> 
+                    <section class="u col-md-4 col-sm-12">
+                        <i class="icon fa fa-laptop" aria-hidden="true"></i>
+                        <h5>wstępną diagnostykę<br> komputerową</h5>
+                    </section>
 
-                        </div>
-                    </div>
+                    <section class="u col-md-4 col-sm-12 ">
+                        <i class="icon fa fa-product-hunt " aria-hidden="true"></i>
+                        <h5>parking strzeżony</h5>
+                    </section> 
+                    <section class="uspan col-xs-6 col-xs-offset-3">
+                        <span class="glyphicon glyphicon-chevron-down "></span>
+                        
+                    </section> 
+                </div>
+                       
+</div>
 
-                </section>
-
-
-
-
-                <footer id="kontakt" class="hrefTarget">
-                    <div class="container-fluid">
-
-                        <div id="mapa" >
-
-                        </div>
-
-                        <div class="row">
-                            <section class="col-xs-12 col-md-4">
-                                <h4><i class="fa fa-map-marker" aria-hidden="true"></i></h4>
-                                <p class="footPar footParA"> 
-
-                                    P.U.H. Auto-Serwis<br>
-                                    Poklęków 13 <br>
-                                    62-812 Jastrzębniki <br>
-                                    Tel. kontaktowy 607 66 53 66<br>
-                                    Fax: 62 75 125 70<br>
-                                    Mail: auto-serwis66@wp.pl
-                                </p>
-                            </section>
-                            <section  class="col-xs-12 col-md-4">
-                                <h4><i class="fa fa-clock-o" aria-hidden="true"></i></h4>
-                                <p class="footPar footParA">
-                                    Pn – Pt.     8.00 -  17.00<br>
-                                    Sobota      8.00 – 15.00
-                                </p>
-
-                            </section>
-
-                            <section  class="col-xs-12 col-md-4">
-                                <h4><i class="fa fa-facebook" aria-hidden="true"></i></h4>
-                                <p class="footPar"><a class="footPar" href="https://www.facebook.com/autoserwislucjankasprzak"> www.facebook.com/autoserwislucjankasprzak
-                                    </a></p>
-
-                            </section>
+        </section>
 
 
 
-                        </div>
-                    </div>
-                </footer>            
-                </body>
-                </html>
+
+        <footer id="kontakt" class="hrefTarget"> 
+            
+
+            <div class="container-fluid">
+                <div class="row">
+            <div class="arrow col-xs-offset-5 col-xs-1 hrefTarget"><a href="#kontakt"><span class="glyphicon glyphicon-chevron-down"></span></a></div>
+
+                </div>
+
+                <div class="row">
+                    <h2>Skontaktuj się z nami</h2>
+                    <section class="col-md-4">
+                        <h4><i class="fa fa-map-marker" aria-hidden="true"></i></h4>
+                        <p class="footPar"> 
+
+                            P.U.H. Auto-Serwis<br>
+                            Poklęków 13 <br>
+                            62-812 Jastrzębniki <br>
+                            Tel. kontaktowy 607 66 53 66<br>
+                            Fax: 62 75 125 70<br>
+                            Mail: <a class="afoot" href="mailto:auto-serwis66@wp.pl" target="-top">auto-serwis66@wp.pl</a>
+                        </p>
+                    </section>
+                    <section  class="col-md-4">
+                        <h4><i class="fa fa-clock-o" aria-hidden="true"></i></h4>
+                        <p class="footPar">
+                            Pn – Pt. :    8.00 -  17.00<br>
+                            Sobota   :   8.00 – 15.00
+                        </p>
+
+                    </section>
+
+                    <section  class="col-md-4">
+                        <h4><i class="fa fa-facebook" aria-hidden="true"></i></h4>
+                        <p class="footPar"><a class="afoot" href="https://www.facebook.com/autoserwislucjankasprzak"> www.facebook.com/autoserwislucjankasprzak
+                            </a></p>
+
+                    </section>
+
+ </div>
+
+              
+                 <div id="mapa" >
+tu bedzie mapa
+                </div>  </div>
+        </footer>            
+    </body>
+</html>

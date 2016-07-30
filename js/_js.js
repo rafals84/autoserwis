@@ -5,9 +5,9 @@ $(function () {
     
     
         
-        var lat=51.842276;
-        var lng=18.061754;
-        var zoom=12;
+        var lat = 51.842276;
+        var lng = 18.061754;
+        var zoom = 12;
  function initMap() {
         var mapDiv = document.getElementById('mapa');
         var map = new google.maps.Map(mapDiv, {
